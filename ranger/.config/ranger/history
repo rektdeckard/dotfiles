@@ -1,4 +1,3 @@
-search Per
 open_with
 shell  drawable-tool .
 shell drawable-tool .
@@ -40,7 +39,6 @@ open_with
 open_with vim
 search per
 search co
-delete
 search Drop
 search Pers
 search cod
@@ -48,3 +46,5 @@ search cod
 
 shell vi CommentList.test.js
 search code
+delete
+shell ./%s

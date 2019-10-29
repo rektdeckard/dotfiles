@@ -3,6 +3,9 @@
 " Updated 2019.9.2
 " Maintained whenever I feel like it
 
+" Handle NO EOL
+" set binary
+
 " Terminal Bell
 set visualbell
 "set t_vb=

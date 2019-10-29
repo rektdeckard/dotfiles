@@ -1,311 +1,3 @@
-tmux new -s win
-exit
-code
-cd scheme/
-scm sicp-c1.scm 
-code
-cd scheme/
-ll
-vi sicp-c1.scm 
-ll
-mv sicp-c1.scm sicp-1-1.scm
-ll
-touch sicp-1-2.scm
-ll
-less volume.scm 
-rm volume.scm 
-less scratch 
-vi sicp-1-1.scm 
-scm sicp-1.2.scm 
-vtop --theme nord
-scm sicp-1.2.scm 
-man scm
-scm -e (newline)
-scm -e(newline)
-man scm
-scm -e(newline)
-scm "-e(newline)"
-scm "(+ 1 4)"
-scm "-e(+ 1 4)"
-scm
-less sicp-1.1.scm 
-scm
-(terms)
-scm
-ranger
-scm
-scm --help
-scm -rprettyprint -r format -i
-scm -r prettyprint -r format -i
-scm sicp-1.1.scm 
-vi sicp-1.1.scm 
-scm
-scm sicp-1.2.scm 
-scm
-vi sicp-1.2.scm 
-which vi
-vi sicp-1.2.scm 
-cd ..
-ll
-ls
-ll
-cd /tmp/
-ll
-vi vitest
-ll
-vi jest.java
-man javac
-ll
-javac jest.java jest
-vi jest.java 
-javac jest.java jest
-vi jest.java 
-javac jest.java jest
-mv jest.java Binger.java
-javac Binger.java Binger
-ll
-man javac
-echo $CLASSPATH
-cd ../Android/Rasa/
-ll
-cd app/src/main/java/
-ll
-cd com/tobiasfried/rasa/
-ll
-code
-cd java/roan/src/main/
-ll
-cd java/
-ll
-cd roan/
-ll
-vi Roan.java 
-code
-cd scheme/
-ll
-vi sicp-1-1.scm 
-mv sicp-1-1.scm sicp-1.1.scm
-mv sicp-1-2.scm sicp-1.2.scm
-vi sicp-1.2.scm 
-scm sicp-1.2.scm 
-scm sicp-1.2.scm (factorial 9)
-scm sicp-1.2.scm "(factorial 9)"
-vi sicp-1.2.scm 
-scm sicp-1.2.scm
-vi sicp-1.2.scm 
-vi sicp-1.1.scm 
-vi sicp-1.2.scm 
-scm sicp-1.2.scm 
-ps
-kill -9 110
-vi sicp-1.2.scm 
-scm sicp-1.2.scm 
-vi sicp-1.2.scm 
-scm sicp-1.2.scm 
-vi sicp-1.2.scm 
-wc sicp-1.1.scm 
-wc sicp-1.2.scm 
-vi sicp-1.2.scm 
-tmux ls
-tmux new -s win
-exit
-code
-exit
-code
-cd scheme/
-ls
-vi sicp-1.2.scm 
-code
-cd scheme/
-ranger
-code
-cd Android/Phosphor/carbon/src/main/assets/
-ll
-cp appfilter.xml /mnt/c/Users/Tobias\ Fried/Google\ Drive/Phosphor/scratch/appfilter.xml
-cd /mnt/c/Users/Tobias\ Fried/Google\ Drive/Phosphor/scratch/appfilter.xml
-cd $(basename /mnt/c/Users/Tobias\ Fried/Google\ Drive/Phosphor/scratch/appfilter.xml)
-cd $(dirname /mnt/c/Users/Tobias\ Fried/Google\ Drive/Phosphor/scratch/appfilter.xml)
-cd "$(dirname /mnt/c/Users/Tobias\ Fried/Google\ Drive/Phosphor/scratch/appfilter.xml)"
-ll
-rm appmap.xml theme_resources.xml 
-filter-map -h
-which filter-map
-pushd .
-vi $(which filter-map)
-wi $(which drawable-tool)
-vi $(which drawable-tool)
-filter-map .
-vi $(which filter-map)
-cd drawable-nodpi/
-ll | grep -i .xml
-rm *.xml
-drawable-tool -h
-drawable-tool -t
-drawable-tool -h
-drawable-tool .
-iconpack-tool 
-drawable-tool .
-code
-cd scheme/
-ll
-vi sicp-1.2.scm 
-vi
-ps
-kill -9 3462 3460
-ps
-kill -9 3461
-ps
-vi sicp-1.1.scm 
-ranger
-code
-cd c/
-ll
-cd secretsanta/
-vi secretsanta.c 
-ll
-./secretsanta
-vi secretsanta.c 
-ranger
-which curl
-which libcurl
-sudo apt install libcurl
-gcc -v secretsanta.c secretsanta
-curl-config --libs
-which curl
-which curl*
-which *map
-curl-config
-sudo apt install curl
-sudo apt install curl-config
-curl-config --cflags
-curl -v
-curl --version
-apt-file curl
-apt list curl
-apt list -a curl
-dpkg -L curl
-which libcurl
-sudo apt install libcurl
-sudo apt install libcurl-dev
-sudo apt install libcurl4-openssl-dev 
-which libcurl
-dpkg -L curl
-dpkg -L libcurl
-dpkg -L libcurl4-openssl-dev
-ranger
-ll
-ranger
-git status
-git pull
-git commit -m "Replaced external mutt call with curl for emailing recipients"
-git att *
-git add *
-git pull
-git push -u origin add-cURL
-git status
-vi secretsanta.c 
-git commit
-git status
-git push
-git status
-git push
-./secretsanta
-which perl
-man git
-man git-branch
-git branch --list
-code
-cd c/secretsanta/
-ll
-git branch --list
-man git-branch
-
-man git-branch
-checkout -b master add-cURL
-man git-branch
-git branch master add-cURL
-git branch add-cURL master
-git checkout add-cURL 
-ll
-cd .archived/
-ll
-less sampleinput 
-less secretsanta.c 
-gcc -v secretsanta.c secretsanta
-gcc secretsanta.c secretsanta
-ll
-cd ..
-ll
-gcc secretsanta.c secretsanta
-vi secretsanta
-vi secretsanta.c 
-man gcc
-gcc secretsanta.c -o secretsanta
-ll
-./secretsanta
-ll
-ls
-gcc secretsanta.c -o secretsanta
-cd .. && ll
-./now
-cd secretsanta/
-gcc secretsanta.c -o secretsanta
-/curl_sli
-gcc secretsanta.c -o secretsanta
-~w
-./secretsanta.c 
-./secretsanta
-ll
-gcc secretsanta.c -o secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-gcc secretsanta.c -lcurl -o secretsanta
-./secretsanta
-tmux new -s win
-tmux a 0t win
-tmux a -t win
-tmus ls
-tmux ls
-tmux new -s win
-exit
-code
-cd c/
 ll
 cd secretsanta/
 ranger
@@ -1998,3 +1690,311 @@ filter-map .
 cd ../../../../../mercury/src/main/res/xml/
 filter-map .
 git status
+ll
+cd Dropbox/Personal/code/Electron/huebert/
+ll
+cp -i .babelrc .bbr
+rm .bbr 
+cp -i .babelrc .bbr
+rm -i .bbc
+rm -i .bbr
+cd ~
+ll
+bi .bashrc 
+vi .bashrc 
+vi .bash_aliases 
+sudo apt install stow
+ll
+md .dotfiles
+mkdir -p .dotfiles
+ll
+export DOT=$HOME/.dotfiles
+echo $DOT
+man cp
+cd .android/
+ll
+cd ..
+cp .bash_aliases .bashrc .config/ .profile .vim .dotfiles/
+cp -r .config/ .dotfiles/
+cp -r .vim .dotfiles/
+cd .vim/
+ll
+cd pack/
+ll
+cd plugins/
+ll
+cd ..
+cd plugins/start/
+ll
+cd ../..
+cd ..
+ll
+cd ..
+ll
+cp .viminfo .vimrc .dotfiles/
+less .selected_editor 
+less .gitconfig 
+cd .dotfiles/
+mkdir -p __setup git termite/.confg bin/bin bash
+touch setup.sh
+mv ~/.gitconfig $DOT/git
+stow -v -R -t ~ git
+cd ..
+ll
+cd .terminfo/
+ll
+cd s
+ll
+less screen 
+c d..
+cd ..
+ls -la | grep .git
+cd ..
+ll
+cd tobiasfried/
+ll
+cd .dotfiles/
+vi setup.sh 
+cd ..
+mv .bashrc .bash_aliases $DOT/bash
+mv .profile $DOT/bash
+cd .dotfiles/
+ll
+mkdri vim
+mkdir vim
+cp -r .vim .viminfo .vimrc vim
+rm -rf termite
+cd bash/
+ll
+cd ..
+mkdir config
+cp -r .config/ config/
+ll
+chmod +x setup.sh 
+./setup.sh 
+cd ..
+ll
+cd .dotfiles/
+vi setup.sh 
+mkdir tmux
+cd ..
+ll
+cp .tmux.conf .dotfiles/tmux/
+cd .dotfiles/
+ll
+./setup.sh 
+cd ..
+ll
+less .bash_logout 
+cp .bash_logout .dotfiles/bash/
+cd .config/
+ranger
+cd ../.dotfiles/
+ll
+rm -rf config/
+rm ..*
+rm .bash.*
+rm .bash*
+ll
+rm .vim*
+rm -rf .vim*
+ll
+rm .pro*
+ll
+cd tmux/
+ll
+cd ..
+vi setup.sh 
+./setup.sh 
+clear
+stow -v -R -t ~ tmux
+cd ..
+mv .tmux.conf .dotfiles/tmux/
+cd .dotfiles/
+stow -v -R -t ~ tmux
+cd ..
+ll
+mv -r .vim* .dotfiles/vim/
+mv -i .vim* .dotfiles/vim/
+mv -rf .vim .dotfiles/vim/
+mv .vim/ .dotfiles/vim/
+man mv
+mv -f .vim/ .dotfiles/vim/
+rm -rf .dotfiles/vim/.vim
+mv .vim/ .dotfiles/vim/
+ll
+cd .dotfiles/
+./setup.sh 
+cd ..
+rm .profile 
+cd .dotfiles/
+./setup.sh 
+cd ..
+mv .bash_logout .dotfiles/bash/
+cd .dotfiles/
+./setup.sh 
+cd ..
+ll
+cd .ssh/
+ll
+less config 
+less known_hosts 
+cd ..
+mv .bash_history .dotfiles/bash/
+cd .dotfiles/
+./setup.sh 
+cd git/
+ll
+cd ../bin/bin/
+ll
+vi $
+echo $@
+echo $@ fe
+vi ~/.bashrc 
+vi ~/.profile 
+cd ~
+cd .local/
+ll
+cd lib/
+ll
+cd ..
+cd bin/
+ll
+cd ~
+cd bin
+mv .local/bin/drawable-tool .local/bin/filter-map .local/bin/iconpack-tool ~/.dotfiles/bin/bin/
+ll
+cd .local/
+cd bin/
+ll
+cd ~/.dotfiles/bin/bin/
+ll
+vi ~/.profile 
+source ~/.profile 
+cd ../..
+./setup.sh 
+cd vim/
+ll
+cd ~
+ll
+less .viminfo 
+cp .viminfo .dotfiles/vim/
+cd .dotfiles/
+./setup.sh 
+cd ~
+ll
+rm .viminfo 
+./se
+cd .dotfiles/
+./setup.sh 
+cd ~
+ll
+rm .viminfo 
+ll
+cd .dotfiles/
+./setup.sh 
+cd ..
+ll
+vi .dotfiles/setup.sh 
+cd .dotfiles/
+./setup.sh 
+cd ~
+ll
+cd .dotfiles/vim/
+ll
+less .viminfo 
+cd ~
+mv .viminfo .dotfiles/vim/
+.dotfiles/setup.sh 
+cd .dotfiles/
+./setup.sh 
+c d~
+cd ~
+ll
+which $
+cd bin
+ll
+$whoami
+$ whoami
+ll
+chmod +x $
+$ whoami
+cd ~
+which $
+which $drawable-tool
+which drawable-tool
+cd .dotfiles/bin/bin/
+ll
+cd ../..
+ll
+cd ~
+ll
+ranger
+mv .config/ranger/ .dotfiles/ranger/
+vi .dotfiles/setup.sh 
+cd .dotfiles/
+./setup.sh 
+cd ..
+less .viminfo 
+ll
+less .bash_history 
+cd go/
+ll
+cd ..
+less history 
+cd .dotfiles/
+ll
+cd ranger/
+ll
+mv * ./.confir/ranger
+mkdir .config/ranger/
+mkdir .config
+cd con
+cd .config/
+mkdir ranger
+cd ../..
+ll
+cd ranger/
+ll
+mv bookmarks commands_full.py commands.py  history rc.conf rifle.conf scope.sh tagged .config/ranger/
+ll
+tree
+ll
+cd .config/
+tree
+cd ..
+./setup.sh 
+cd ~
+ll
+cd .dotfiles/
+tree
+cd git/
+tree
+ll
+cd ..
+cd ~/.config/ranger
+ll
+cd ..
+ll
+cd ~/.dotfiles/
+git init
+ll
+cd .git/
+ll
+cd ..
+git status
+cd .config/
+ll
+cd ~/.config/
+ll
+cd ~/.dotfiles/
+ll
+rm .config/
+rm -rf .config/
+ll
+git status
+git add *
+git commit -m "Initial commit"
+git remote add origin https://github.com/rektdeckard/dotfiles.git
+git push -u origin master
+exec bash
