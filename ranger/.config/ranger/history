@@ -1,0 +1,50 @@
+search Per
+open_with
+shell  drawable-tool .
+shell drawable-tool .
+shell drawable-tool -t .
+search draw
+search Goo
+search Phos
+shell drawable-tool -t
+shell drawable-tool -t &
+search s
+shell git branch --list
+shell gcc %s secretsanta
+vi now.c
+shell vi now.c
+search no
+shell gcc %s -o now
+shell mv %s %s.o
+shell 
+search pers
+search c	o
+shell git init
+shell touch .gitignore
+shell git add all
+git status
+shell cd %s
+shell cd  %s
+search vtop
+rename asicp-1.1.scm
+rename 
+rename sicp-1.1.scm
+rename read-std-in.scm
+rename stdio.scm
+search usr
+search sc
+search scm
+open_with scm
+shell git status
+open_with 
+open_with vim
+search per
+search co
+delete
+search Drop
+search Pers
+search cod
+! vi CommentList.test.js
+
+shell vi CommentList.test.js
+search code

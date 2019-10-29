@@ -1,0 +1,12 @@
+[alias]
+	up = "!git remote update -p; git merge --ff-only @{u}"
+[user]
+	email = friedtm@gmail.com
+	name = rektdeckard
+[core]
+	autocrlf = true
+	editor = vi
+[color]
+	ui = true
+[push]
+	default = simple
