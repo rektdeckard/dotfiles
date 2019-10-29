@@ -1,109 +1,3 @@
-ll
-cd secretsanta/
-ranger
-ll
-git status
-git commit -m "Removed binaries"
-git add *
-git status
-git rm secretsanta
-status
-git status
-cit commit -m "Removed binaries"
-git commit -m "Removed binaries"
-git status
-git pull
-git push
-git config --global push.default simple
-git help config
-ranger
-drawable-tool -z
-drawable-tool -t Google\ Drive/Phosphor/scratch/drawable-nodpi/
-drawable-tool -q Google\ Drive/Phosphor/scratch/drawable-nodpi/
-ll
-cd Google\ Drive/Phosphor/scratch/drawable-nodpi/
-ll
-ls
-ls | grep -e .xml
-ll | grep -i .xml
-vi drawable.xml 
-cd ..
-cp /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/res/drawable-nodpi ./drawable-nodpi
-cp -rf /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/res/drawable-nodpi ./drawable-nodpi
-cd drawable-nodpi/
-ll | grep -i .xml
-ll | grep .xml
-drawable-tool .
-less drawable.xml 
-vi drawable.xml 
-man cp
-cd ..
-rm -rf drawable-nodpi/
-cp -rf /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/res/drawable-nodpi ./drawable-nodpi
-cd drawable-nodpi/
-ls
-drawable-tool -q && iconpack-tool 
-vi drawable.xml 
-vi icon_pack.xml 
-vi drawable.xml 
-vi icon_pack.xml 
-which iconpack-tool 
-cd which iconpack-tool 
-cd $(cd which iconpack-tool )
-which iconpack-tool 
-cd $(which iconpack-tool )
-which iconpack-tool 
-which iconpack-tool
-cd $(dirname which iconpack-tool)
-ll
-cd .local/bin/
-ll
-less iconpack-tool 
-nano iconpack-tool 
-which emacs
-emacs
-more iconpack-tool 
-less iconpack-tool 
-ls
-ll
-vi filter-map 
-nano filter-map 
-vi filter-map 
-code
-cd ../../../Google\ Drive/Phosphor/scratch/drawable-nodpi/
-ll
-ll | grep .xml
-rm *.xml
-vi
-vi scr.xml
-ll | grep .xml
-rm *.xml
-vi sml.xml
-ll | grep .xml
-ps
-jobs
-exit
-code
-cd c/secretsanta/
-./secretsanta.
-./secretsanta.o
-git status
-git checkout master
-git status
-git pull
-less secretsanta.c
-./secretsanta
-git checkout add-cURL
-git pull
-less secretsanta.c
-exit
-code
-cd c/secretsanta/
-ll
-./secretsanta.o
-git status
-git checkout origin
-git checkout master
 git status
 ll
 ./secretsanta
@@ -1998,3 +1892,109 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/rektdeckard/dotfiles.git
 git push -u origin master
 exec bash
+up
+vi .vimrc 
+cd .dotfiles/vim/.vim/pack/plugins/start/vim-polyglot/
+ll
+cd ..
+git clone https://github.com/scrooloose/nerdtree.git
+ll
+vi ~/.vimrc 
+vim --version
+vim -v
+cd ~/.dotfiles/
+./setup.sh
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+ll
+vi setup.sh 
+git submodule add https://github.com/sheerun/vim-polyglot vim/.vim/pack/plugins/start/vim-polyglot
+git submodule add https://github.com/scrooloose/nerdtree vim/.vim/pack/plugins/start/nerdtree
+./setup.sh 
+ll
+cd ..
+ll
+ls
+ls -a
+cd .dotfiles/
+git status
+vi .gitmodules 
+git status
+./setup.sh 
+vi setup.sh 
+which binutils
+ranger
+source ~/.vimrc 
+vi setup.sh 
+ranger
+./setup.sh 
+ranger
+vi setup.sh 
+clear
+vi setup.sh 
+./setup.sh 
+git status
+git add *
+git commit -m "Added Vim submodules"
+git push
+./setup.sh 
+vi ~/.vimrc 
+vi .bashr
+vo ~/.bashrc 
+vi ~/.bashrc
+ssh air
+drawable-tool .
+iconpack-tool 
+git status
+cd vim/.vim/pack/plugins/start/vim-polyglot/
+ll
+git status
+cd ..
+rm -rf vim-polyglot/
+git clone https://github.com/sheerun/vim-polyglot
+ll
+cd vim-polyglot/
+ll
+git status
+cd ../../../../../..
+ll
+./setup.sh 
+rm vim/.viminfo 
+./setup.sh 
+cd ~
+ll
+less .viminfo 
+file .viminfo 
+tmus
+tmux
+ch ~
+cd ~
+ll
+git status
+cd .dotfiles/
+git status
+vi setup.sh 
+git diff .gitmodules
+git diff vim/.vimrc
+git diff vim/.vim/pack/plugins/start/vim-polyglot/
+cd ..
+ll
+ssh air
+sleep 10
+alert
+cd ~
+ll
+ssh air
+ll
+cd .dotfiles/
+git status
+git diff vim/.vim/pack/plugins/start/vim-polyglot/
+git add *
+git commit
+git status
+git add *
+git status
+git add .gitmodules 
+git status
+git add vim/.vim/pack/plugins/start/vim-polyglot/
+git status
+vi setup.sh 
