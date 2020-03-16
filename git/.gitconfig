@@ -4,7 +4,7 @@
 	email = friedtm@gmail.com
 	name = rektdeckard
 [core]
-	autocrlf = true
+	autocrlf = input
 	editor = vi
 [color]
 	ui = true
