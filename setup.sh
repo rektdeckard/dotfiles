@@ -12,8 +12,10 @@ base=(
 # folders that should, or only need to be installed for a local user
 useronly=(
     bin
+    dircolors
     git
     ranger
+    ssh
     tmux
     vim
 )

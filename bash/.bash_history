@@ -1,122 +1,3 @@
-git checkout --ours package.json
-git checkout --ours src/components/SearchBar.js
-git checkout --ours src/context/FavoritesContext.js
-git checkout --ours src/context/SearchesContext.js
-git checkout --ours src/hooks/useResults.js
-git checkout --ours src/screens/DetailScreen.js
-git checkout --ours src/screens/LocationListScreen.js
-git add .gitignore 
-git status
-git add *
-git status
-git commit
-git status
-git push -u origin master
-git push origin master
-git push
-git push --set-upstream origin bare
-git pull
-react-native run-android
-ssh air
-up
-sudo apt autoremove
-ranger
-cd Dropbox/Personal/code/React-Native/iXW/
-git pull
-ranger
-git checkout master
-git reset --hard
-git checkout master
-git pull
-tmux ls
-tmux new -s win
-tmux ls
-clear
-ssh air
-code
-cd React-Native/
-cd iXW/
-wc src/
-cd src/
-find .
-find . | xargs wc -l
-find . | xargs wc -l | less
-cd ..
-ll
-wc -l App.js 
-wc -l app.json 
-tmux ls
-tmux new -s win
-code
-cd scheme/
-ll
-vi sicp-1.1.scm 
-ssh air
-tmux ls
-tmux new -s win
-code
-cd python/
-ll
-mkdir icon-tools
-pip install Gooey
-ll
-cd icon-tools/
-ll
-filter-map --version
-filter-map -version
-cd ../../sh/
-vi filter-map.sh 
-ll
-cp filter-map.sh filter-map-2.sh
-vi filter-map-2.sh 
-rm filter-map-2.sh 
-ssh air
-tmux ls
-tmux new -s win
-tmux ls
-tmux new -s win
-tmux ls
-cd Downloads/
-diff IconRequest-20190722_121907/appfilter_20190722_121907.xml IconRequest-20190722_135210/appfilter_20190722_135210.xml 
-ssh air
-echo ${!USER}
-echo ${USER}
-echo [[ "the" =~ [a-z]{3} ]];
-[[ "the" =~ [a-z]{3} ]];
-[[ "the" =~ [a-z]{3} ]] 2>&1
-sync
-man sync
-ll
-vi mult.py
-python mult.py 
-vi mult.py
-
-ll
-vi pat
-vi matrix.py 
-vi mult.py
-vi matrix.py 
-cd algorithms/
-vi mult.py 
-python mult.py 3 4
-vi mult.py
-python mult.py 3 4
-ll
-vi mult.py
-mv mult-naive.py 
-mv mult.py mult-naive.py
-ll
-python
-vi mult-peasant.py
-python mult-peasant.py 50 12
-vi mult-peasant.py
-python mult-peasant.py 5023452 4874844
-vi mult-peasant.py
-python
-vi mult-peasant.py 
-python mult-peasant.py 
-vi mult-peasant.py 
-python mult-peasant.py 
 python mult-peasant.py 20 4
 python mult-peasant.py 234985207349 12323214
 vi mult-peasant.py 
@@ -1998,3 +1879,122 @@ code
 cd React/wordnet-web/
 ll
 ranger
+ll
+cd ~
+ll
+cd .ssh/
+ll
+cd ../.yarn/
+ll
+cd bin/
+ll
+cd ../..
+ll
+cd .dotfiles/
+ll
+vi setup.sh 
+tree
+cd ranger/
+ll
+man tree
+tree -a
+cd ..
+tree -a
+ll
+cd __setup/
+ll
+mkdir ssh
+rmdir ssh
+cd ..
+md ssh
+mkdir shh
+rmdir shh
+mkdir ssh
+cp ../.ssh/ ssh
+ll
+cd ssh/
+ll
+cp ../../.ssh/ .
+cp ../../.ssh/ ./.ssh
+cp -r ../../.ssh/ ./.ssh
+ll
+cd .ssh/
+ll
+cd ..
+vi setup.sh 
+./setup.sh 
+cd ..
+ll
+cd .ssh/
+ll
+cd ../.dotfiles/
+vi setup.sh 
+cd ..
+rm -rf .ssh/
+./.dotfiles/setup.sh 
+ll
+cd .dotfiles/
+ll
+./setup.sh 
+cd ..
+ll
+mkdir .dotfiles/dircolors
+cp .dircolors .dotfiles/dircolors/.dircolors
+cd .terminfo/
+ll
+cd s
+ll
+less screen 
+cd ..
+ll
+less .viminfo 
+cd .dotfiles/
+ll
+cd dircolors/
+ll
+cd .di
+less .dircolors 
+cd ..
+rm -rf ../.dotfiles/
+ll
+cd ..
+ll
+git clone https://github.com/rektdeckard/dotfiles.git
+ll
+mv dotfiles/ .dotfiles
+ll
+cp /mnt/c/Users/Tobias\ Fried/.ssh/ .dotfiles/ssh/.ssh
+cd .dotfiles/
+ll
+mkdir ssh
+mkdir dircolors
+cp /mnt/c/Users/Tobias\ Fried/.ssh/ ./ssh/.ssh
+cp /mnt/c/Users/Tobias\ Fried/.ssh/ ./ssh/.ssh/
+cp /mnt/c/Users/Tobias\ Fried/.ssh/ ./ssh/
+sudo cp /mnt/c/Users/Tobias\ Fried/.ssh/ ./ssh/
+ll
+cp -r /mnt/c/Users/Tobias\ Fried/.ssh/ ./ssh/.ssh
+cd ssh/
+ll
+tree
+cd .ssh/
+ll
+less config 
+less known_hosts 
+cd ..
+ll
+cp ../.dircolors dircolors/.dircolors
+cd .dir
+cd dircolors/
+ll
+less .dircolors 
+cd ..
+ll
+vi setup.sh 
+cd ..
+ll
+rm .dircolors 
+cd .dotfiles/
+ll
+./setup.sh 
+cd ..
