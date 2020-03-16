@@ -1,844 +1,3 @@
-git status
-ll
-./secretsanta
-code
-cd sh/
-ll
-git status
-git commit -m "Add warning message before overwrite"
-git commit --info
-git status
-ll
-cd .git/
-ll
-cd branches/
-ll
-cd ..
-git status
-git add *
-git status
-git commit -m "Add warning message before overwrite"
-git diff filter-map.sh
-git difftool help
-git difftool filter-map.sh
-git difftool filter-map.sh master
-git help
-git help diff
-git push
-ranger
-code
-cd c/secretsanta/
-git status
-git checkout add-cURL 
-git pull
-exit
-cd ../Phosphor/carbon/src/main/assets/
-ll
-diff appfilter.xml appfilter.xml___jb_old___ 
-mv appfilter.xml___jb_old___ appfilter.xml
-ll
-ll | grep -i appfilter
-vi appfilter.xml 
-exit
-code
-ranger
-vi .gitignore
-cd js
-tree
-ll
-less .gitconfig 
-rm .gitignore 
-code
-cd Web/Portfolio/tobiasfried.com/
-ll
-vi .gitignore 
-less quickstart.html 
-rm quickstart.html 
-less .htaccess 
-less blah.html 
-cd css/
-ll
-cd ..
-cd images/
-tree
-cd ../assets/
-ll
-cd fonts/
-ll
-cd ..
-cd phosphor/
-ll
-tree
-cd ..
-cd..
-cd ..
-vi .gitignore 
-ll
-vi .gitignore 
-less .gitignore 
-less google98e18ad5a0f8a538.html 
-tree js
-less js/main.js 
-less js/in_view.min.js 
-less js/lazysizes.min.js 
-git status
-git add *
-git status
-git add .htaccess 
-git add .gitignore 
-git status
-git commit -m "Initial commit"
-git remote add origin https://github.com/rektdeckard/portfolio.git
-git status
-git push -u origin master
-ranger
-ll
-code
-cd Android/Phosphor
-ll
-ls
-ll
-cd carbon/
-ll
-cd src/main/res/
-ll
-cd drawable-nodpi
-ll
-cd ../../../../..
-ll
-git remove
-git help rm
-git rm -n --cached */src/main/res/drawable-nodpi/
-git rm -n -r --cached */src/main/res/drawable-nodpi/
-git rm -r --cached */src/main/res/drawable-nodpi/
-git status
-git add carbon/src/main/assets/appfilter.xml 
-git commit -m "Updated .gitignore to exclude assets"
-git status
-git push
-git pull
-git status
-git push
-git status
-vi .gitignore 
-git status
-vi .gitignore 
-git status
-vi .gitignore 
-git status
-git pull
-git add *
-git status
-git commit -m "Updated .gitignore"
-git add .gitignore 
-git status
-git push
-git status
-ranger
-cd ../Rasa/
-git status
-git add *
-git status
-git commit -m "Revised icon"
-git pull
-git push
-ranger
-cd ../../../../../Google\ Drive/Phosphor/scratch/
-ll
-cd drawable-nodpi/
-tree
-ls
-cd .. && ll
-which filter-map
-vi $(which filter-map)
-exit
-tmux ls
-tmux new -s win
-exit
-expo-cli --version
-code
-cd React-Native/
-ll
-cd giphmoji/
-ll
-expo init
-npm install -g expo-cli
-exit
-ll
-filter-map -t .
-filter-map -t
-which filter-map 
-filter-map .
-cd ../../../../../mercury/src/main/res/xml/
-ll
-filter-map .
-code
-cd scheme/
-vi sicp-1.2.scm 
-code
-cd scheme/
-ll
-scm sicp-1.2.scm 
-tmux ls
-tmux new -s win
-exit
-code
-cd scheme
-ll
-scm sicp-1.2.scm 
-scm sicp-1.1.scm 
-scm sicp-1.2.scm 
-code
-cd scheme/
-scm sicp-1.2.scm 
-code
-cd scheme/
-vi sicp-1.2.scm 
-vi sicp-1.1.scm 
-vi sicp-1.2.scm 
-ll
-scm sicp-1.2.scm 
-vi sicp-1.2.scm 
-exit
-tmux ls
-tmux new -s win
-ls
-exit
-code
-cd scheme/
-scm sicp-1.2.scm 
-exit
-code
-cd scheme/
-vi sicp-1.1.scm 
-tmux ls
-tmux a -t win
-code
-cd scheme/
-vi sicp-1.2.scm 
-code
-cd scheme/
-scm sicp-1.2.scm 
-git status
-ll
-less reading.scm 
-ranger
-cd ../Web/Portfolio/tobiasfried.com/
-git status
-ranger
-cd ../../../
-cd java/roan/
-git status
-git add *
-git status
-ranger
-cd ../../c/
-./xes
-less xes.c 
-./xes
-less xes.c 
-ranger
-gcc xes.c xes
-./xes
-less xes.c 
-vi xes.c 
-gcc xes.c xes
-vi xes.c 
-gcc xes.c xes
-./xes
-ranger
-cd ../scheme/
-ll
-scm sicp-1.2.scm 
-tmux ls
-tmux new -s win
-exit
-code
-cd scheme/
-scm sicp-1.2.scm 
-code
-cd scheme/
-ll
-vi sicp-1.2.scm 
-vtop
-vtop --theme wizard
-vtop --theme nord
-vtop --theme gruvbox
-vtop --theme gooey
-vtop --theme tobes
-vtop --theme acid
-which vtop
-ranger
-vtop --theme becca brew certs dark parallax monokai seti
-vtop --theme brew
-vtop --theme certs
-vtop --theme dark
-ode
-ssh tobiasfried@ubuntuair
-vtop --theme tobes
-vtop --theme monokai
-vtop --theme dark
-ssh tobiasfried@ubuntuair
-cd Dropbox/Personal/code/sh/
-less newthings.sh 
-newthing.sh
-./newthings.sh 
-popd
-cd ~
-ssh tobiasfried@ubuntuair
-tmux ls
-tmux new -s win
-tmux ls
-code
-cd scheme/
-scm sicp-1.2.scm 
-vi sicp-1.2.scm 
-scm sicp-1.2.scm 
-exit
-code
-cd scheme/
-vi sicp-1.2.scm 
-ll
-rm .sicp-1.2.scm.swp 
-vi sicp-1.2.scm 
-code
-cd scheme/
-scm sicp-1.2.scm 
-scm
-scm sicp-1.2.scm 
-ssh tobiasfried@ubuntuair
-ll
-vi sicp-1.2.scm 
-cd ../c/
-ll
-vi search-bisection.c 
-./search-bisection
-./search-bisection 3 1 5 6 8
-less search-linear
-strings search-linear
-ll
-./now
-vi sort-bubble.c 
-./sort-bubble
-vi sqrt-exp.c 
-./sqrt-exp
-vi sentencereverse.c 
-./sentencereverse
-vi sumdigits-recursive.c 
-./sumdigits-recursive
-./rnd
-less rnd
-less rnd.c 
-less rnd
-./rnd
-./dice
-cd ../scheme/
-ll
-less rnd:wq
-code
-cd scheme/
-scm sicp-1.2.scm 
-ssh tobiasfried@ubuntuair
-code
-cd scheme/
-vi sicp-1.2.scm 
-tree
-vi sicp-1.2.scm 
-ll
-code
-cd scheme/
-vi sicp-1.2.scm 
-ssh tobiasfried@ubuntuair
-ssh tobiasfried
-ssh tobiasfried@ubuntuair
-man apg
-apg
-which apg
-sudo apt install apg
-apg
-man apg
-apg -M s -m 18 -r
-apg -M s -m 18
-apg
-apg -m 18
-apg -n 12
-apg
-apg -M C
-clear
-tmux ls
-tmux new -s win
-tmux ls
-tmux a -t win
-tmux a -t win
-code
-cd Web/Portfolio/tobiasfried.com/
-ll
-vi index.html 
-vi blah.html 
-cd assets/
-tree
-cd ../images/
-tree
-ranger
-cd ..
-git status
-git commit -m "Retab HTML"
-git add *
-vi index.html 
-git status
-git push
-git commit -m "Retab HTML"
-vi blah.html 
-git status
-git push
-ranger
-code
-cd sh
-git status
-git add *
-git commit -m "Remotely bypass X login to unlock desktop"
-gut push
-git push
-ssh tobiasfried@ubuntuair
-cd ..
-cd 
-cd /mnt/c/Users/Tobias\ Fried/
-ll
-tmux ls
-cd Google\ Drive/Phosphor/assets/icons/Mercury/
-ll
-cd ..
-diff -rq Mercury /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/res/drawable-nodpi
-mv Mercury/ap_news.png ap_news.png
-diff -rq Mercury /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/res/drawable-nodpi
-mv ap_news.png Mercury/ap_news.png
-diff -rq Mercury /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/res/drawable-nodpi
-cd ../../
-ll
-cd scratch/
-ll
-diff appfilter.xml /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/Android/Phosphor/mercury/src/main/assets/appfilter.xml 
-cd cd 
-hist
-cd ..
-exit
-cd ../
-ll
-alias
-win
-$USER
-echo $USER
-export
-echo $WINDOWS
-echo $HOME
-export | grep window
-win
-vi ~/.bash_aliases 
-exec bash
-cd $WIN
-vi ~/.bash_aliases 
-cd $WIN
-vi ~/.bash_aliases 
-exec bash
-code
-cd Linux/
-ll
-vi linux_notes.md 
-code
-cd sh/
-ll
-vi knock-knock.sh 
-exit
-cd $WIN
-vi ~/.bash_aliases 
-echo /mnt/c/Users/Tobias\ Fried/
-ssh air
-ssh tobiasfried@ubuntuair
-cd /etc
-ll
-ll | grep host
-less host.conf 
-less hostname 
-less hosts
-less hosts.allow 
-cd ssh/
-ll
-cd ~
-ll
-cd .ssh/
-ll
-less known_hosts 
-vi /etc/hosts
-ssh tobiasfried@ubuntuair
-ssh tobiasfried@ubuntuair -p1337
-ll
-vi config
-sudo service sshd reload
-sudo service ssh reload
-ssh tobiasfried@ubuntuair
-ll
-chmod 600 config 
-ll
-chown $USER config 
-ssh tobiasfried@ubuntuair
-vi config 
-ssh air
-vi config 
-ssh air-remote
-ssh tobiasfried@ubuntuair
-less config 
-vi config 
-ssh air-remote
-vi config 
-ssh -vvv air-remote
-ssh -vvv air
-tmux ls
-tmux new -s win
-exit
-cat .git/HEAD 
-cd .git/
-ll
-less HEAD 
-exit
-ssh air
-ranger
-code
-cd Android/Phosphor/mercury/src/main/assets/
-ll
-vi appfilter.xml 
-bash
-code
-cd Android/Phosphor/mercury/src/main/assets/
-vi appfilter.xml 
-vi blac
-ll
-exit
-ssh air
-code
-cd Android/
-git clone https://github.com/udacity/Android_Me.git
-mv Android_Me/ Android\ Me
-ll
-rm -rf Android\ Me/
-tmux ls
-tmux new -s win
-ranger
-cd Phosphor
-ll
-git status
-git add *
-git status
-git commit -m "Move to shape drawables for clock layers"
-git push
-cd ../Samples/
-ll
-mv Design-Patterns-In-Kotlin/ ../../Kotlin/Design\ Patterns\ in\ Kotlin
-cd ../../Kotlin/
-ll
-cd Design\ Patterns\ in\ Kotlin/
-ll
-cd patterns/
-ll
-cd src/
-ll
-cd test/
-ll
-cd kotlin/
-ll
-vi Strategy.kt 
-vim --version
-vi --version
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-pushd .
-cd ~
-ll
-vi .vimrc 
-vi
-ranger
-exec bash
-ranger
-popd
-win
-cd Dropbox/Personal/code/Kotlin/Head\ First\ Design\ Patterns/
-ll
-ranger
-sudo add-apt-repository ppa:jonathonf/vim
-up
-which vim
-vi --version
-ranger
-pushd .
-cd ~
-git clone https://github.com/udalov/kotlin-vim.git ~/.vim/pack/plugins/start/kotlin-vim
-ranger
-popd
-ranger
-git clone https://github.com/sheerun/vim-polyglot ~/.vim/pack/plugins/start/vim-polyglot
-ll
-vi src/com/tobiasfried/patterns/strategy/Duck.kt 
-ranger
-dirs
-cd ~/.vim/
-find . -type f | xargs -Ix sed -i.bak -r 's/\r//g' x
-find . -type f -name '*.bak' | xargs -Ix rm x
-ranger
-win
-code
-cd Kotlin/
-ranger
-ll
-rm Design\ Patterns\ in\ Kotlin/
-rm -rf Design\ Patterns\ in\ Kotlin/
-git clone https://github.com/dbacinski/Design-Patterns-In-Kotlin.git
-mv Design-Patterns-In-Kotlin/ Design\ Patterns\ in\ Kotlin
-rm -rf Design\ Patterns\ in\ Kotlin/
-ll
-ranger
-code
-cd Android/
-ll
-cd Samples/
-ll
-git clone https://github.com/dbacinski/Design-Patterns-In-Kotlin
-ll
-ranger
-cd Design-Patterns-In-Kotlin/
-git status
-tmux ls
-tmux a -t win
-vi converter.py
-ll
-./converter.py 
-vi converter.py 
-./converter.py 
-mkdir ratio-finder
-mv converter.py ratio-finder/rates.py
-cd ratio-finder/
-vi rates.py 
-vi dfs.py
-vi matrix.py 
-cd ratio-finder/
-ll
-vi rates.py 
-ll
-cd ratio-finder/
-vi rates.py
-ll
-cd ratio-finder/
-python dfs.py 
-ll
-cd __pycache__/
-ll
-less rates.cpython-35.pyc 
-cd ..
-ll
-python dfs.py
-ll
-vi dfs.py 
-python dfs.py
-vi dfs.py 
-python dfs.py
-python --version
-vi dfs.py 
-python --version
-python dfs.py
-vi dfs.py 
-vi rates.py 
-vi dfs.py 
-vi bfs.py
-python bfs.py 
-vi rates.py 
-vi constant_time.py
-./constant_time.py 
-vi constant_time.py 
-python2.7 constant_time.py 
-python constant_time.py 
-./constant_time.py 
-from colletions
-which collections
-vi dfs.py 
-pythong dfs.py 
-python dfs.py 
-cd ...
-cd ....
-vi dfs.py 
-python dfs.py 
-vi dfs.py 
-python dfs.py 
-vi dfs.py 
-python dfs.py 
-vi dfs.py 
-python dfs.py 
-vi dfs.py 
-python dfs.py 
-vi dfs.py 
-python constant_time.py 
-ssh -p1337 tobiasfried@ubuntuair
-ssh air
-vtop --theme becca
-exit
-code
-ll
-cd python/
-ll
-./matrix.py 
-./matrix.py Toby
-vi matrix.py 
-tmux ls
-tmux new -s win
-exit
-ssh air
-tmux new -s win
-exit
-ranger
-code
-cd Kotlin/
-ll
-#clone this project
-git clone https://github.com/msink/kotlin-libui.git
-#build libui.klib
-cd kotlin-libui/libui
-../gradlew build
-#build and run the hello-ktx sample
-cd ../samples/hello-ktx/
-../../gradlew run
-cd ../..
-ll
-./gradlew build
-cd libui/
-../gradlew.bat
-../gradlew build
-exit
-ssh air
-exit
-tmux ls
-tmux a -t win
-exit
-tail -f C:\Users\Tobias Fried\AppData\Roaming\npm-cache\_logs\2019-09-06T22_59_58_669Z-debug.log
-tail -f /mnt/c/Users/Tobias\ Fried/AppData/Roaming/npm-cache/_logs/2019-09-06T22_59_58_669Z-debug.log
-exit
-tail -f /mnt/c/Users/Tobias\ Fried/AppData/Roaming/npm-cache/_logs/2019-09-06T22_59_58_669Z-debug.log
-ll
-cd /mnt/c/Users/Tobias\ Fried/AppData/Roaming/npm-cache/_logs/
-ll
-tail -n 10 "$(ls -at | head -n 1)"
-ll
-tail -n 10 "$(ls -at | head -n 1)"
-ls -at
-ls -at | head -n 1
-ls -t | head -n 1
-tail -n 10 "$(ls -t | head -n 1)"
-tail -f -n 10 "$(ls -t | head -n 1)"
-ll
-ls -t | head -n 1
-tail "$(ls -t | head -n 1)"
-code
-ll
-cd Kotlin/
-ll
-cd He
-cd Head\ First\ Design\ Patterns/
-ll
-cd ..
-ranger
-cd ../React-Native/ix-weather/
-git status
-git add *
-git status
-ll
-vi .gitignore 
-ll
-cd .expo-shared/
-ll
-less assets.json 
-cd ..
-git status
-cd ..
-npx expo-cli init food
-npm install -g npm
-exit
-code
-cd Android/Phosphor/krypton/src/main/res/drawable-nodpi
-ls
-drawable-tool 
-iconpack-tool 
-drawable-tool .
-iconpack-tool 
-cd ..
-ls
-drawable-tool 
-iconpack-tool 
-cd ~/.local/bin/
-less filter-map 
-ci filter-map 
-vi filter-map 
-ls
-ll
-filter-map 
-cd ../../../../../krypton/src/main/res/xml/
-filter-map -v
-filter-map 
-ll
-cd ../../../../../mercury/src/main/res/xml/
-filter-map 
-git push
-exit
-ssh air
-ranger
-ssh air-remote
-cd ..
-exit
-code
-cd Nodejs/
-ll
-mv jserver/ ../React-Native/jserver
-cd ../React-Native/
-ll
-cd jserver/
-ll
-tree
-ssh air
-tmux ls
-tmux new -s win
-tmux ls
-tmux a -t win
-vi local.properties
-LL
-ll
-git add *
-git remote add https://github.com/rektdeckard/ix-weather
-git remote add origin https://github.com/rektdeckard/ix-weather
-git fetch
-git push -f origin master
-git checkout -b bare
-git status
-git push origin bare
-git commit -m "Eject from Expo and do project cleanup"
-git pull
-git pull origin master
-git push origin branch --force
-git status
-git push origin +master
-git pull
-git pull origin master
-git add .gitignore 
-git pull origin master
-git stash
-git pull origin master
-grep -lr '<<<<<<<' . | xargs git checkout --ours
-git pull origin master
-vi .gitignore
-git rm *
-git add *
-vi .gitignore 
-git rm *
-git rm --cached *
-git status
-grep -lr '<<<<<<<' . | xargs git checkout --ours
-git checkout --ours App.js
-git checkout --ours app.json
-git checkout --ours babel.config.js
-git checkout --ours package
 git checkout --ours package.json
 git checkout --ours src/components/SearchBar.js
 git checkout --ours src/context/FavoritesContext.js
@@ -1998,3 +1157,844 @@ git status
 git add vim/.vim/pack/plugins/start/vim-polyglot/
 git status
 vi setup.sh 
+cd ~/.dotfiles/vim/.vim/
+ll
+cd pack/plugins/start/vim-polyglot/
+git status
+git add *
+git status
+cd ~/.dotfiles/
+git add *
+git status
+git commit -m "Repair Vim plugins"
+git push
+ranger
+win
+code
+cd sh/
+git status
+git diff knock-knock.sh
+git add *
+git commit -m "Properly connect to X Display"
+git push
+ranger
+cd ~/.dotfiles/vim/.vim/pack/plugins/start/vim-polyglot/
+git status
+ll
+vi ftdetect/polyglot.vim 
+ranger
+git status
+git diff ftdetect/polyglot.vim
+git pull
+git pull origin master
+git add *
+git stash
+git pull origin master
+git status
+ranger
+ll
+vi .travis.yml 
+vi ftdetect/polyglot.vim 
+vi .travis.yml 
+vi ~/.vimrc 
+vi .travis.yml 
+vi ftdetect/polyglot.vim 
+vi ~/.vimrc 
+code
+cd sh/
+vi iconpack-tool.sh 
+vi filter-map.sh 
+cd Google\ Drive/Phosphor/scratch/
+ll
+vi appfilter.xml 
+cd drawable-nodpi/
+grep -i draw
+ll | grep draw
+drawable-tool .
+vi drawable.xml 
+diff drawable.xml ../../../../Desktop/xml-test-output.xml 
+vi drawable.xml 
+diff drawable.xml ../../../../Desktop/drawable.xml 
+diff drawable.xml ../../../../Desktop/drawable.xml
+cp drawable.xml drawable_copy.xml
+diff drawable.xml drawable_copy.xml 
+file drawable.xml 
+file ../../../../Desktop/drawable.xml 
+iconpack-tool .
+vi icon_pack.xml 
+code
+cd Android/Phosphor/carbon/src/main/res/xml/
+ll
+cd ..
+ll
+cd values
+ll
+vi icon_pack.xml 
+cd ~/.vim/pack/plugins/start/vim-polyglot/
+ll
+cd syntax/
+ll
+ls
+vi xml.vim 
+vi appmap.xml 
+vi theme_resources.xml 
+vi appmap.xml 
+vi theme_resources.xml 
+vi appfilter.xml 
+vi appmap.xml 
+vi theme_resources.xml 
+vi appmap.xml 
+vi appfilter.xml filter-map -t appfilter.xml 
+filter-map -t appfilter.xml 
+filter-map .
+vi appfilter.xml 
+vi appmap.xml 
+vi theme_resources.xml 
+cd /
+c d~
+cd ~
+ll
+clear
+win
+cd Google\ Drive/Phosphor/scratch/
+ll
+vi appfilter.xml 
+vi appmap.xml 
+tmux
+sudo apt install tldr
+tldr
+apt search tldr
+apt search curl
+apt list
+clear
+sudo apt install tldr
+code
+cd C/
+ll
+cd secretsanta/
+./secretsanta.
+./secretsanta.o
+ll
+cd ~
+ll
+cd .dotfiles/bash/
+ll
+vi .bashrc 
+cd ..
+ll
+./setup.sh 
+cd ~
+exec bash
+ll
+grep **ca
+find *go
+clear
+ll
+find **/bin/**
+cd **/vim-polyglot
+find **/vim-polyglot
+find **/vim/**
+find **/.vim/**
+cd **/.vim
+cd ~
+cd **/bin
+ll
+c d..
+cd ..
+find **/bin
+drawable-tool -h
+drawable-tool -g
+ll
+drawable-tool .
+drawable-tool -h
+cd Google\ Drive/Phosphor/scratch/drawable-nodpi/
+drawable-tool -t .
+iconpack-tool -t .
+ranger
+cd ~/.dotfiles/
+ll
+vi setup.sh 
+wind
+win
+cd Desktop/
+vi TreeView.kt 
+ranger
+clear
+ranger
+mount
+cd /dev
+ll
+drawable-tool .
+iconpack-tool .
+filter-map .
+up
+rm -rm out/
+rm -rf out/
+ps aux | grep -i n
+vi &
+ps
+killall -9 23
+ps
+kill -9 23
+ps
+curl -v enable-cors.org > /dev/null
+cd Dropbox/Personal/code/Electron/huebert
+ll
+git status
+git diff
+git pull
+vi README.md 
+up
+cd Dropbox/Personal/code/Android/Phosphor/carbon/src/main/assets/
+ll
+vi appfilter.xml 
+exit
+diff assets\drawable.xml res\xml\drawable.xml
+diff assets/drawable.xml res/xml/drawable.xml
+ps -aux
+ps -aux | grep a
+ps -aux | grep -i "a"
+drawable-tool .
+iconpack-tool .
+filter-map .
+ll
+filter-map .
+up
+node
+rm -rf interval-hook/
+sudo rm -rf interval-hook/
+mkdir src
+cd src
+ll
+cp ../../seasons/public/ ../public
+cd ..
+ll
+cp ../seasons/public/ ./public
+mkdir public
+cp ../seasons/public/ ./public
+cp -r ../seasons/public/ ./public
+ll
+cd public/
+ll
+mv ./public/* .
+ll
+rm public/
+rm -f public/
+rm -r public/
+ll
+vi index.html 
+cd ../src/
+vi index.js
+cd src/
+vi useResumeable.js
+tmux
+rm *
+rm -rf *
+touch rn-cli.config.js
+node --v8-options | grep "in progress"
+node --v8-options | grep "filter"
+node --version
+cd Downloads/
+ll
+scp ./James\ Bond\ The\ Living\ Daylights\ \(1987\)\ \[1080p\]/ tobiasfried@24.45.250.74:/disks/NASty/Videos
+scp -v ./James\ Bond\ The\ Living\ Daylights\ \(1987\)\ \[1080p\]/ tobiasfried@24.45.250.74:/disks/NASty/Videos
+ssh tobiasfried@24.45.250.74
+man scp
+ma nscp
+man scp
+scp -v -P 1337 ./James\ Bond\ The\ Living\ Daylights\ \(1987\)\ \[1080p\]/ tobiasfried@24.45.250.74:/disks/NASty/Videos
+cd James\ Bond\ The\ Living\ Daylights\ \(1987\)\ \[1080p\]/
+ll
+scp -v -P 1337 James.Bond.The.Living.Daylights.1987.1080p.BRrip.x264.YIFY.mp4 tobiasfried@24.45.250.74:/disks/NASty/Videos/jb.mp4
+ssh air-remote
+cd Downloads/
+ll
+scp -v -P 1337 Die\ Hard\ \(1988\)\ \[1080p\]\ \{5.1\}/Die.Hard.BluRay.1080p.x264.5.1.Judas.mp4  tobiasfried@24.45.250.74:/disks/NASty/Videos/Movies/diehard.mp4
+ll
+scp -v -P 1337 Die\ Hard\ \(1988\)\ \[1080p\]\ \{5.1\}/Die.Hard.BluRay.1080p.x264.5.1.Judas.mp4  tobiasfried@24.45.250.74:/disks/NASty/Videos/Movies/diehard.mp4
+cd Downloads/
+scp -v -P 1337 Die\ Hard\ \(1988\)\ \[1080p\]\ \{5.1\}/Die.Hard.BluRay.1080p.x264.5.1.Judas.mp4  tobiasfried@24.45.250.74:/disks/NASty/Videos/Movies/diehard.mp4
+up
+ls
+ll
+vi node_modules/metro-config/src/defaults/blacklist.js 
+cd src/hooks/
+ll
+vi useThrottled.js 
+cd src/hooks/
+vi useThrottled.js 
+arp -a
+ifconfig
+which arp
+arp
+ifconfig
+cd ~
+ranger
+arp -a
+which arp
+ifconfig
+ranger
+ssh air-remote
+cd ~
+cd .ssh/
+ll
+less config 
+tmux
+npx create-react-app hatchways-work-orders
+npx create-react-app wordnet
+echo "68656C6C6F20776F726C6400" | hexdump
+which uni2ascii
+which hex
+which hex*
+drawable-tool .
+iconpack-tool .
+ls
+iconpack-tool .
+drawable-tool .
+cd ../../../../../Dropbox/Personal/code/Android/Phosphor/carbon/src/main/res/xml/
+ll
+vi appfilter.xml 
+filter-map .
+vi appmap.xml 
+if config
+ifconfig
+systemctl status
+which ssh
+cd ~
+ll
+code
+ll
+cd sh
+ll
+vi filter-map.sh 
+code
+cd Android/Phosphor
+cd carbon/src/main/assets/
+ll
+cd win
+win
+cd Google\ Drive/Phosphor/assets/icons/Carbon/
+ll
+cd ____new/
+ll
+drawable-tool .
+iconpack-tool .
+code
+cd ../../../Google\ Drive/Phosphor/assets/icons/Carbon/
+ll
+drawable-tool .
+filter-map .
+iconpack-tool .
+drawable-tool .
+cd ../../../../../Dropbox/Personal/code/Android/Phosphor/carbon/src/main/assets/
+ll
+cd ../res/xml/
+ll
+filter-map .
+ls
+cd ~
+ll
+ranger
+cd .dotfiles/
+ll
+less ./setup.sh 
+ll
+cd __setup/
+ll
+cd ..
+ll
+cd bash/
+..
+ll
+less .bash
+less .bashrc 
+cd ..
+cd bin/
+ll
+cd bin/
+ll
+cd ../
+ll
+cd ..
+ll
+cd vim/
+ll
+cd .vim/
+ll
+cd pack/
+ll
+cd plugins/start/vim-polyglot/
+ll
+cd /sys/
+ll
+cd class/
+ll
+cd backlight/
+ll
+cd ../switch/
+ll
+cd ../timed_output/
+ll
+cd ../net/
+ll
+cd wifi0
+ll
+cat address 
+cat flags 
+cat if
+cat ifindex 
+cat iflink 
+cat mtu 
+cd ..
+ll
+cd lo/
+ll
+cat address 
+cd ..
+man scp
+scp -P 1337 tobiasfried@ubuntuair:/disks/NASty/Videos/Television/Utopia/clip.mp4 ./Videos/clip.mp4
+cd /tmp/
+ll
+mkdir missing
+cd missing/
+man touch
+touch semester
+echo #!/bin/sh >> semester
+cat semester 
+less semester 
+echo bin
+echo #!/bin/sh >> semester
+less semester
+man quoting
+echo '#!/bin/sh' >> semester
+cat semester 
+cat 'curl --head --silent https://missing.csail.mit.edu' >> semester
+echo 'curl --head --silent https://missing.csail.mit.edu' >> semester
+cat semester 
+./semester
+ls
+ll
+chmod +x semester 
+ll
+./semester 
+man chmod
+./semester | grep -i "Last-Modified"
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2
+./semester | grep -i "Last-Modified" | cut --delimiter=': ' -f2
+./semester | grep -i "Last-Modified" | cut --delimiter=':' -f2
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2
+./semester | grep -i "Last-Modified" | cut --delimiter=' '
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2
+man cut
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2-6
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2-6 > last-modified.txt
+cat last-modified.txt 
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2-7 > last-modified.txt
+./semester | grep -i "Last-Modified" | cut --delimiter=' ' -f2-7 | tee last-modified.txt
+ll
+pushd .
+cd /sys/
+ll
+cd power/
+ll
+cat autosleep 
+cat wake_lock 
+cat wake_unlock 
+cd ..
+ll
+cd class/
+ll\
+ps
+env echo 8
+echo $env
+env
+set
+env
+which shellcheck
+sudo apt install shellcheck
+where shellcheck
+which shellcheck
+ll
+cd ..
+ll
+shellcheck semester 
+vi ex
+ll
+grep -R a .
+which ack
+which ripgrep
+which find
+gw
+win
+find . "*.js"
+code
+cd React
+grep -R "import { R"
+ind . "*.js"
+grep -R a .
+which fzf
+sudo apt install fzf
+sudo apt-get install fzf
+which fzf
+up
+ll
+man ls
+ls -lhatu
+ls -t
+ll
+ls -lhatu
+man ls
+ls -lhatu --color
+ranger
+ls -lha
+ls -lhatu --color
+ranger
+ll
+ls
+cd /sys/class/power_supply/
+ll
+cd battery/
+ll
+cat capacity 
+cat charge_counter 
+cat current_now 
+cat status 
+cat present 
+cat temp 
+cat type 
+cat voltage_now 
+cd ..
+ll
+cd switch/
+ll
+cd ..
+cd timed_output/
+ll
+cd ../..
+ll
+cd dev
+ll
+cd ../devices/
+ll
+cd system/
+ll
+cd cpu/
+ll
+cat online 
+cat possible 
+cat present 
+cd cpu0
+ll
+cd topology/
+ll
+cat core_id 
+cat core_siblings
+cat core_siblings_list 
+cat thread_siblings
+cat thread_siblings_list 
+cd ..
+ll
+cd cpufreq/
+ll
+cat cpuinfo_max_freq 
+cat scaling_max_freq 
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd virtual/
+ll
+cd net/
+ll
+cd ../../..
+ll
+cd firmware/
+ll
+cd ..
+cd block/
+ll
+cd ..
+cd bus/
+ll
+cd ../class/
+ll
+cd backlight/
+ll
+cd ..
+cd /tmp/
+cd missing/
+mkdir a
+cd $!
+ll
+echo $!
+echo $0
+echo $1
+popd
+cd /tmp/missing/
+ll
+rm -rf a
+mkdir a
+cd a
+echo $0
+echo $1
+cat
+cat ./fd
+exho$?
+echo $?
+echo $_
+ll
+cd ..
+ll
+grep -i sh semester 
+grep /*s/g semester 
+man grep
+grep -e /*s/g semester 
+grep -e s semester 
+grep -e *s semester 
+grep -e sh semester 
+man grep
+grep -e s* semester 
+grep -e /s*/g semester 
+man grep
+who
+whoami
+grep 's*' semester 
+grep 's.' semester 
+grep '[p\/]s' semester 
+grep '-*' semester 
+grep '\-*' semester 
+grep 's*' semester 
+grep 's.*' semester 
+grep s.* semester 
+grep ^c.* semester 
+grep ^#.* semester 
+foo=7
+echo $foo
+echo "This is $foo"
+echo "this is $(./semester)"
+cat <(ls) <(ls ..)
+echo $$
+ps
+echo "running $0"
+echo "running $1"
+echo "running $2"
+echo "running $3"
+echo "running $@"
+grep a
+ls | grep rw
+ls | grep -i rw
+ll
+ls
+ll
+ll | grep rw
+ll | grep rsdfg
+ll | grep rsdfg 2>&1
+echo $?
+ll | grep rsdfg 2>1
+cat << EOF
+ll
+rm 1
+vi ex.sh
+ll
+chmod +x ex.sh 
+ls a
+cd a
+ll
+cd ..
+rm -rf a
+ll
+vi a
+vi b
+vi c
+./ex.sh a b c
+cat a b c
+vi ex.sh 
+./ex.sh a b c
+vi a
+vi b
+vi c
+./ex.sh a b c
+cat a b c
+vi ex.sh 
+grep 's*' a
+echo $?
+grep 's*' b
+echo $?
+grep s* b
+grep s* a
+grep 's*' a
+grep 's*' b
+grep 's*' c
+echo $?
+grep 's8' "sdf"
+grep 's8' a
+grep 's*' a
+grep 's*' b
+grep 'x*' b
+grep x* b
+grep s* b
+grep 's*' b
+grep -e 's*' b
+grep -e 's*' a
+grep -e s* a
+grep -e 's*' a
+grep -e 's*' b
+grep -e 's*' c
+vi ex.sh 
+./ex.sh a
+./ex.sh a b c
+vi ex.sh 
+./ex.sh a b c
+cat a b c
+vi ex.sh 
+./ex.sh a b c
+cat a b c
+vi ex.sh 
+./ex.sh a b c
+vi a
+vi b
+vi c
+./ex.sh a b c
+cat a b c
+vi b
+vi c
+vi ex.sh 
+cat a b c
+./ex.sh a b c
+cat a b c
+./ex.sh a b c
+vi ex.sh 
+./ex.sh a b c
+cat a b c
+vi a
+vi b
+vi c 
+ls ?
+ls ?????
+ls ????
+ls ???
+ls ??
+ls ?
+ls {a,b}
+rm a b c
+rm ex.sh 
+touch a.x a.y a.z b.x b.z c.y
+ll
+ls
+ls ?{.z}
+ls *{.z}
+ls {a.,b.}
+ls {a.,b.}?
+ls {a,c}
+ls {a,c}*
+ls *.z
+ls *.{z,y}
+rm ..{x,y,z}
+rm *.{x,y,z}
+mkdir files && cd $_
+touch {a..f}.{1..3}
+ll
+env bash
+code
+cd React
+cd wordnet-web/
+ll
+ranger
+vi ~/.bashrc 
+vi ~/.profile 
+echo $LS_COLORS
+env
+env | grep LS
+pushd .
+cd ~
+grep -R LS_
+grep -R LS_COLORS
+cd ~
+ll
+grep -R LS_COLORS
+grep -R "LS_COLORS" /etc/
+grep -R "LS_COLORS"
+vi .profile 
+for i in 00{2..8} {0{3,4,9},10}{0..7}; do echo -e "$i \e[0;${i}mSubdermatoglyphic text\e[00m  \e[1;${i}mSubdermatoglyphic text\e[00m"; done
+for i in 00{2..8} {0{3,4,9},10}{0..7}; do for j in 0 1;    do echo -e "$j;$i \e[$j;${i}mSubdermatoglyphic text\e[00m";    done; done
+colors
+colors2
+which colo*
+which color
+which colors
+colors
+which colors
+echo $LS_COLORS
+vi .bashrc 
+ls
+source .bashrc 
+ls
+ll
+vi .bashrc 
+cd /etc/
+ll
+dircolors
+dircolors --print-database
+ls
+ll
+ls -lha --color
+ls
+ll
+cd ~
+ll
+dircolors --print-database
+dircolors --print-database | grep 32;
+dircolors --print-database | grep 34
+dircolors --print-database | grep 32
+ll
+dircolors --print-database | grep 32
+touch .dircolors
+ll
+vi .dircolors 
+ls
+vi ~/.dircolors 
+ll
+vi ~/.dircolors 
+ll
+ranger
+cd ~
+vi .dircolors 
+ll
+ranger
+ll
+ranger
+ll
+tree
+ll
+ranger
+cd ~/.config/
+ll
+cd ranger
+ll
+vi rc.conf 
+ranger
+vi rc.conf 
+ranger
+vi rc.conf 
+ranger
+ll
+cd ~
+ll
+ranger
+ll
+ranger
+ll
+ranger
+cd ~
+ll
+ls
+ll
+tree
+code
+cd React/wordnet-web/
+ll
+ranger

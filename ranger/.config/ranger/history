@@ -1,12 +1,3 @@
-open_with
-shell  drawable-tool .
-shell drawable-tool .
-shell drawable-tool -t .
-search draw
-search Goo
-search Phos
-shell drawable-tool -t
-shell drawable-tool -t &
 search s
 shell git branch --list
 shell gcc %s secretsanta
@@ -34,17 +25,26 @@ search usr
 search sc
 search scm
 open_with scm
-shell git status
-open_with 
-open_with vim
 search per
-search co
-search Drop
 search Pers
-search cod
 ! vi CommentList.test.js
-
 shell vi CommentList.test.js
-search code
-delete
 shell ./%s
+shell sudo rm -rf %s
+shell git status
+shell ghit status
+shell ./setup.sh
+open_with vim
+
+shell vim %s
+open_with 
+open_with q
+search Drop
+search Per
+search co
+search code
+rename .amplif
+search cod
+rename statUtils.js
+delete
+search use

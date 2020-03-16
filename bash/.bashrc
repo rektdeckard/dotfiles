@@ -8,6 +8,9 @@ case $- in
       *) return;;
 esac
 
+# enable ** type globs
+shopt -s globstar
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -83,6 +86,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
+# colors for ls output
+LS_COLORS=$LS_COLORS:'di=1;33:ln=36' ; export LS_COLORS;
 
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
