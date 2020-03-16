@@ -1,51 +1,3 @@
-python mult-peasant.py 20 4
-python mult-peasant.py 234985207349 12323214
-vi mult-peasant.py 
-vi .hueadm.json
-cat .hueadm.json 
-man rsync
-man scp
-cd Downloads/
-ll
-man scp
-scp -o -p1337 The\ Unexplained\ \(1975\) tobiasfried@ubuntuair:/disks/NASty/Music
-scp The\ Unexplained\ \(1975\) tobiasfried@ubuntuair:/disks/NASty/Music
-ssh tobiasfried@ubuntuair
-ssh -p1337 tobiasfried@ubuntuair
-scp -P 1337 The\ Unexplained\ \(1975\) tobiasfried@ubuntuair:/disks/NASty/Music
-man scp
-scp -P 1337 -r The\ Unexplained\ \(1975\) tobiasfried@ubuntuair:/disks/NASty/Music
-ssh -p1337 tobiasfried@ubuntuair
-cd Dropbox/Personal/code/sh/
-ll
-vi filter-map.sh 
-ssh air-remote
-emulator
-cd starter/
-ll
-python dictionaries.py 
-python functions.py 
-python dictionaries.py 
-python functions.py 
-python conditionals.py 
-python loops.py 
-python modules.py 
-pip --version
-cd starter/
-ll
-python basics.py 
-
-python basics.py 
-python strings.py 
-python lists.py 
-python tuples.py 
-python tuples_sets.py 
-python dictionaries.py 
-clear
-vtop
-vtop --theme monokai
-vtop --theme parallax
-vtop --theme gruvbox
 vtop --theme gooey
 vtop --theme acid
 vtop --theme wizard
@@ -1998,3 +1950,51 @@ cd .dotfiles/
 ll
 ./setup.sh 
 cd ..
+ll
+cd ~
+ll
+ssh air
+cd .dotfiles/
+cd ssh/
+ll
+cd .ssh/
+ll
+cat config > config2
+ll
+rm config
+mv config2 config
+cat id_rsa > id_rsa2
+cat id_rsa.pub id_rsa.pub2
+cat id_rsa.pub > id_rsa.pub2
+cat known_hosts > known_hosts2
+ll
+mv id_rsa2 id_rsa
+ll
+mv id_rsa.pub2 id_rsa.pub
+mv known_hosts2 known_hosts
+ll
+ssh air
+chown tobiasfried ./*
+ll
+sudo chown tobiasfried ./*
+ll
+chmod +x ./*
+ll
+ssh air
+chmod 600 config 
+ll
+ssh air
+vi /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/React/wordnet-web/src/utils/graphUtils.js 
+cd ../..
+ll
+git checkout HEAD vim
+ll
+cd vim/
+ll
+cd ..
+git status
+git checkout vim
+ll
+git status
+git add *
+git commit -m "Add dircolors and ssh"
