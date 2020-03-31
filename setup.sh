@@ -15,7 +15,6 @@ useronly=(
     dircolors
     git
     ranger
-    ssh
     tmux
     vim
 )

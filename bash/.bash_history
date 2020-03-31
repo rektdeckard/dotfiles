@@ -1,71 +1,3 @@
-vtop --theme gooey
-vtop --theme acid
-vtop --theme wizard
-vtop --theme becca
-vtop --theme gooey
-clear
-ll
-mkdir starter
-cd starter/
-vi variables.py
-mv variables.py basics.py
-vi basics.py 
-ll
-vi strings.py
-ll
-vi lists.py
-vi strings.py
-vi lists.py
-vi tuples.py
-mv tuples.py tuples_sets.py
-vi tuples_sets.py 
-vi dictionaries.py
-vi functions.py
-vi conditionals.py
-vi loops.py
-vi modules.py
-vi validator.py
-vi modules.py
-vi classes.py
-vi files.py
-vi json_stuff.py
-pip install camelcase
-pip freeze
-python modules.py 
-cd starter/
-python modules.py 
-python classes.py 
-python files.py 
-less file.txt 
-python files.py 
-python json_stuff.py 
-ranger
-code
-cd python/
-python --version
-python3 --version
-python2 --version
-ll
-tmux ls
-tmux new -s win
-tmux ls
-ssh air
-ranger
-cd Dropbox/Personal/code/React-Native/iXW/
-git status
-git log
-git help
-git diff
-git pull
-ranger
-cd ../ix-weather/
-git status
-git diff
-git checkout expo-kit
-git help checkout
-git pull
-git checkout expo-kit
-git status
 git diff
 git commit -m "Sync searchbar"
 git checkout expo-kit
@@ -1998,3 +1930,71 @@ ll
 git status
 git add *
 git commit -m "Add dircolors and ssh"
+vi /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/React/wordnet-web/src/utils/graphUtils.js 
+cd ~/.dotfiles/
+git checkout cfd8d0a8639f7f5c56a8171ad4a0ebe6885f2b51 -- vim
+ll
+git status
+git add *
+git commit -m "Restore vim plugins"
+vi /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/React/wordnet-web/src/utils/graphUtils.js 
+git status
+cd vim/
+ll
+cd ..
+git checkout cfd8d0a8639f7f5c56a8171ad4a0ebe6885f2b51 vim
+ll
+git status
+cd vim/
+ll
+cd ..
+git config --global core.autocrlf true
+git config --global core.autocrlf input
+./setup.sh 
+vi /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/React/wordnet-web/src/utils/graphUtils.js 
+which git
+git status
+git add *
+git commit -m "Permanently fix line endings issue!"
+git push
+git status
+ll
+cd ~
+ll
+vi /mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/React/wordnet-web/src/utils/graphUtils.js 
+ssh air
+ranger
+ll
+cd ~
+ll
+vi .dotfiles/dircolors/.dircolors 
+vi .bashrc 
+ll
+ranger
+cd .dotfiles/
+ll
+cd ..
+ll
+cd bin/
+ll
+cd ..
+vi .bashrc 
+ranger
+ll
+ranger
+vi .bashrc 
+ranger
+ll
+vi .bashrc 
+ranger
+vi .bashrc 
+ranger
+ssh air
+cd Desktop/
+diff all1.txt all2.txt 
+cd carbon/src/main/assets/
+ll
+filter-map . ../res/xml/
+filter-map --help
+cd ../res/xml/
+filter-map .
