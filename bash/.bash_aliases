@@ -11,4 +11,12 @@ alias cp="cp -i"
 alias rm="rm -i"
 alias mv="mv -i"
 
+alias gs="git status"
+alias gl="git log"
+alias gd="git diff"
+alias ga="git add"
+alias gc="git commit -a"
+alias gp="git pull"
+alias gu="git push"
+
 export WIN="/mnt/c/Users/Tobias Fried"

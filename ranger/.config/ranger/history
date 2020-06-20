@@ -1,18 +1,3 @@
-search s
-shell git branch --list
-shell gcc %s secretsanta
-vi now.c
-shell vi now.c
-search no
-shell gcc %s -o now
-shell mv %s %s.o
-shell 
-search pers
-search c	o
-shell git init
-shell touch .gitignore
-shell git add all
-git status
 shell cd %s
 shell cd  %s
 search vtop
@@ -26,7 +11,6 @@ search sc
 search scm
 open_with scm
 search per
-search Pers
 ! vi CommentList.test.js
 shell vi CommentList.test.js
 shell ./%s
@@ -39,12 +23,28 @@ open_with vim
 shell vim %s
 open_with 
 open_with q
-search Drop
 search Per
 search co
-search code
 rename .amplif
-search cod
 rename statUtils.js
-delete
 search use
+search .con
+search ran
+search Drop
+search Pers
+search cod
+search wor
+search rea
+search code
+search
+shell
+search cas
+search c
+shell sudo rm castero
+shell rm
+shell sudo rm
+shell sudo rm -rf castero*
+search hy
+delete
+search us
+open_with vi

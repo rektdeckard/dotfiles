@@ -71,3 +71,6 @@ function! ToggleLineEndings()
    endif
 endfunction
 nnoremap <S-F> :call ToggleLineEndings()<CR>
+
+" Shortcut to exit insert mode
+:imap jj <Esc>
