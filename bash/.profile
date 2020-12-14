@@ -76,15 +76,15 @@ fi
 PATH="/mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/sh:$HOME/bin:$HOME/.local/bin:$PATH"
 GOPATH="$HOME/go"
 
-< # set PATH so it includes user's private bin if it exists
-< if [ -d "$HOME/bin" ] ; then
-<     PATH="$HOME/bin:$PATH"
-< fi
-< 
-< # set PATH so it includes user's private bin if it exists
-< if [ -d "$HOME/.local/bin" ] ; then
-<     PATH="$HOME/.local/bin:$PATH"
-< fi
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 
-< source "$HOME/.cargo/env"
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+source "$HOME/.cargo/env"
 
