@@ -5,7 +5,7 @@
 	name = rektdeckard
 [core]
 	autocrlf = input
-	editor = vi
+	editor = vim
 [color]
 	ui = true
 [push]
