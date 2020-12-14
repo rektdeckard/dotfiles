@@ -57,9 +57,6 @@ function! ToggleHiddenAll()
 endfunction
 nnoremap <S-h> :call ToggleHiddenAll()<CR>
 
-" Shortcut (Shift-S) to hide/show NERDTree
-" nnoremap <S-S> :NERDTreeToggle<CR>
-
 " Shortcut (Shift-F) to toggle UNIX/Windows line ending characters
 function! ToggleLineEndings()
    if &ff == 'dos'
