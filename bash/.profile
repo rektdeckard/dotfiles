@@ -62,7 +62,7 @@ PS1="$PCT${debian_chroot:+($debian_chroot)}\u@\h$NC:$LIGHTBLUE\w$NC $ "
 export GOPATH=$HOME/go
 
 # pulseaudio
-export PULSE_SERVER=tcp:localhost
+# export PULSE_SERVER=tcp:localhost
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
