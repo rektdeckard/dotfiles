@@ -1,6 +1,6 @@
 " VIMRC for Tobias Fried
 "
-" Updated 2019.9.2
+" Updated 2021.2.12
 " Maintained whenever I feel like it
 
 " Handle NO EOL
@@ -71,3 +71,6 @@ nnoremap <S-F> :call ToggleLineEndings()<CR>
 
 " Shortcut to exit insert mode
 :imap jj <Esc>
+
+syntax on
+colorscheme industry 
