@@ -58,12 +58,6 @@ PS1="$PCT${debian_chroot:+($debian_chroot)}\u@\h$NC:$LIGHTBLUE\w$NC $ "
 
 # The trick is to use strong quoting for parts of old PS1 variable.
 
-# GOPATH
-export GOPATH=$HOME/go
-
-# pulseaudio
-# export PULSE_SERVER=tcp:localhost
-
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
@@ -71,10 +65,6 @@ if [ -n "$BASH_VERSION" ]; then
 	. "$HOME/.bashrc"
     fi
 fi
-
-# set PATH so it includes user's private bin directories
-PATH="/mnt/c/Users/Tobias\ Fried/Dropbox/Personal/code/sh:$HOME/bin:$HOME/.local/bin:$PATH"
-GOPATH="$HOME/go"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
