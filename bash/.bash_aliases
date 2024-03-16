@@ -13,3 +13,4 @@ alias gc="git commit -a"
 alias gp="git pull"
 alias gu="git push"
 
+alias mgd="google-drive-ocamlfuse ~/GoogleDrive/"

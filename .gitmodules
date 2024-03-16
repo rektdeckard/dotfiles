@@ -1,16 +1,15 @@
+[submodule "vim/.vim/pack/coc/start/coc.nvim"]
+    path = vim/.vim/pack/coc/start/coc.nvim
+    url = https://github.com/neoclide/coc.nvim
 [submodule "vim/.vim/pack/plugins/start/vim-polyglot"]
     path = vim/.vim/pack/plugins/start/vim-polyglot
     url = https://github.com/sheerun/vim-polyglot
-
 [submodule "vim/.vim/pack/plugins/start/vim-gitgutter"]
     path = vim/.vim/pack/plugins/start/vim-gitgutter
     url = https://github.com/airblade/vim-gitgutter
-[submodule "vim/.vim/pack/coc/start/coc.nvim"]
-	path = vim/.vim/pack/coc/start/coc.nvim
-	url = https://github.com/neoclide/coc.nvim.git
-[submodule "vim/.vim/pack/plugins/start/lightline"]
-	path = vim/.vim/pack/plugins/start/lightline
-	url = https://github.com/itchyny/lightline.vim.git
 [submodule "vim/.vim/pack/plugins/start/vim-prettier"]
-	path = vim/.vim/pack/plugins/start/vim-prettier
-	url = https://github.com/prettier/vim-prettier.git
+  	path = vim/.vim/pack/plugins/start/vim-prettier
+  	url = https://github.com/prettier/vim-prettier.git
+[submodule "vim/.vim/pack/plugins/start/lightline.vim"]
+  	path = vim/.vim/pack/plugins/start/lightline
+  	url = https://github.com/itchyny/lightline.vim

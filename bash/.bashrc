@@ -60,7 +60,14 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    DARKGRAY='\[\033[1;30m\]'
+    LIGHTRED='\[\033[1;31m\]'
+    GREEN='\[\033[32m\]'
+    YELLOW='\[\033[1;33m\]'
+    LIGHTBLUE='\[\033[1;34m\]'
+    NC='\[\033[m\]'
+
+    PS1="${debian_chroot:+($debian_chroot)}$LIGHTBLUE\u@\h$NC:$YELLOW\w$NC\$ "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -128,8 +135,21 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Other vars
+export EDITOR="vi"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 source "$HOME/.cargo/env"
 
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/tobiasfried/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

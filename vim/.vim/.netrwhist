@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/tobiasfried/dotfiles/vim/.vim/pack/coc/start/coc.nvim'
+let g:netrw_dirhist_9='/home/tobiasfried/Documents/Dev/mp3/src/components/Wiggler'
+let g:netrw_dirhist_8='/home/tobiasfried/Documents/Dev/mp3/src/components'
+let g:netrw_dirhist_7='/home/tobiasfried/Documents/Dev/mp3/src/styles'
+let g:netrw_dirhist_6='/home/tobiasfried/Documents/Dev/mp3/src'
+let g:netrw_dirhist_5='/home/tobiasfried/Documents/Dev/mp3/src/components'
+let g:netrw_dirhist_4='/home/tobiasfried/Documents/Dev/phosphor-elm/example/src'
+let g:netrw_dirhist_3='/home/tobiasfried/Documents/Dev/phosphor-elm/example'
+let g:netrw_dirhist_2='/home/tobiasfried/Documents/Dev/phosphor-elm'
+let g:netrw_dirhist_1='/home/tobiasfried/Documents/Dev/phosphor-elm/bin'

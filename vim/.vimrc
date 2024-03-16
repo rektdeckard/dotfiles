@@ -1,7 +1,5 @@
 " VIMRC for Tobias Fried
-"
 " Updated 2021.2.12
-" Maintained whenever I feel like it
 
 " Plugins
 packloadall
@@ -44,14 +42,15 @@ set expandtab
 " Lightline
 set laststatus=2
 set noshowmode
+set background=dark
 let g:lightline = {
-  \ 'colorscheme': 'dorkula',
-  \ 'active': {
-  \   'left': [ [ 'mode', 'paste' ],
-  \             [ 'readonly', 'filename', 'modified', 'charvaluehex' ] ]
-  \ },
+  \ 'colorscheme': 'solarized',
+  \ 'active' : {
+  \    'left': [ [ 'mode', 'paste' ],
+  \              [ 'readonly', 'filename', 'modified', 'charvaluehex' ] ]
+  \  },
   \ 'component': {
-  \   'charvaluehex': '0x%B'
+  \    'charvaluehex': '0x%B'
   \ },
   \ }
 
@@ -95,22 +94,28 @@ nnoremap <S-F> :call ToggleLineEndings()<CR>
 " Shortcut (jj) to exit insert mode
 :imap jj <Esc>
 
+" Shortcut to find/replace highlighted word
+vnoremap <C-r> "hy:%s/<C-r>h//g<left><left>
+
 " Update time for swap and changes
 set updatetime=250
-
+ 
 " Colors and syntax highlighting
 syntax on
-colorscheme default
+" colorscheme default
 
 nnoremap <C-H> :set cursorline!<CR>
 
+highlight LineNr ctermfg=8
 highlight CursorLine cterm=NONE ctermbg=BLACK
-highlight CursorLineNr cterm=NONE ctermbg=BLACK
+highlight CursorLineNr cterm=NONE ctermfg=BLACK ctermbg=8
 highlight SignColumn ctermbg=BLACK
-highlight GitGutterAdd ctermbg=DARKGREEN ctermfg=BLACK
-highlight GitGutterChange ctermbg=DARKCYAN ctermfg=BLACK
+highlight GitGutterAdd ctermbg=GREEN ctermfg=BLACK
+highlight GitGutterChange ctermbg=BLUE ctermfg=BLACK
 highlight GitGutterDelete ctermbg=BROWN ctermfg=BLACK
 highlight GitGutterChangeDelete ctermbg=BROWN ctermfg=BLACK
-highlight Visual ctermbg=8
-highlight Pmenu ctermbg=8 ctermfg=LIGHTGRAY
-highlight PmenuSel ctermbg=DARKRED ctermfg=BLACK 
+highlight Visual ctermbg=16 ctermfg=WHITE
+highlight Pmenu ctermbg=0 ctermfg=8
+highlight PmenuSel ctermbg=3 ctermfg=BLACK
+highlight PmenuSbar ctermbg=0
+highlight PmenuThumb ctermbg=3
