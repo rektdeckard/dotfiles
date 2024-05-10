@@ -21,7 +21,7 @@ YELLOW='\e[1;33m'
 LIGHTBLUE='\e[1;34m'
 NC='\e[m'
 
-PCT="\`if [[ \$EUID -eq 0 ]]; then T='$LIGHTRED' ; else T='$LIGHTBLUE'; fi; 
+PCT="\`if [[ \$EUID -eq 0 ]]; then T='$LIGHTRED' ; else T='$YELLOW'; fi; 
 echo \$T \`"
 
 #  For "literal" command substitution to be assigned to a variable,

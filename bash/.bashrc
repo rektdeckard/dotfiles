@@ -136,7 +136,8 @@ if ! shopt -oq posix; then
 fi
 
 # Other vars
-export EDITOR="vi"
+export EDITOR="nvim"
+export VISUAL="nvim"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

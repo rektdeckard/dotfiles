@@ -759,16 +759,35 @@ require('lazy').setup({
     -- change the command in the config to whatever the name of that colorscheme is
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`
-    'ramojus/mellifluous.nvim',
+    'ellisonleao/gruvbox.nvim',
     lazy = false, -- make sure we load this during startup if it is your main colorscheme
     priority = 1000, -- make sure to load this before all the other start plugins
+    opts = {
+      bold = false,
+      italic = {
+        strings = false,
+        emphasis = true,
+        comments = true,
+        operators = false,
+        folds = true,
+      },
+      contrast = 'hard',
+    },
     config = function()
       -- Load the colorscheme here.
-      vim.cmd.colorscheme 'mellifluous'
+      vim.cmd.colorscheme 'gruvbox'
       -- You can configure highlights by doing something like
       vim.cmd.hi 'Comment gui=none'
     end,
   },
+  { 'aktersnurra/no-clown-fiesta.nvim' },
+  { 'shaunsingh/nord.nvim' },
+  { 'Domeee/mosel.nvim' },
+  { 'rockerBOO/boo-colorscheme-nvim' },
+  { 'AlexvZyl/nordic.nvim' },
+  { 'ronisbr/nano-theme.nvim' },
+  { 'ramojus/mellifluous.nvim' },
+  { 'DanielEliasib/sweet-fusion' },
   {
     'Mofiqul/adwaita.nvim',
     config = function()
@@ -777,22 +796,8 @@ require('lazy').setup({
       vim.g.adwaita_transparent = false -- makes the background transparent
     end,
   },
-  {
-    'alligator/accent.vim',
-    config = function()
-      vim.g.accent_color = 'yellow' -- makes the background and some text colours darker
-      vim.g.accent_darken = 0 -- inverts the colour of the status line text
-      vim.g.accent_invert_status = 0 -- sets the accent colour using a hash of the current directory
-      vim.g.accent_auto_cwd_colour = 0 -- stops the background colour being set, which will use the terminal default
-      vim.g.accent_no_bg = 0 -- makes the background transparent
-    end,
-  },
-  { 'techtuner/aura-neovim' },
   { 'wesgibbs/vim-irblack' },
   { 'nanotech/jellybeans.vim' },
-  { 'aktersnurra/no-clown-fiesta.nvim' },
-  { 'nyoom-engineering/oxocarbon.nvim' },
-  { 'AlessandroYorba/Sierra' },
   { 'danishprakash/vim-yami' },
   { 'mcchrish/zenbones.nvim', dependencies = { 'rktjmp/lush.nvim' } },
 
@@ -862,6 +867,18 @@ require('lazy').setup({
       --    - Show your current context: https://github.com/nvim-treesitter/nvim-treesitter-context
       --    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
     end,
+  },
+
+  { -- Highlight color values
+    'brenoprata10/nvim-highlight-colors',
+    opts = {
+      ---Render style
+      ---@usage 'background'|'foreground'|'virtual'
+      render = 'virtual',
+      virtual_symbol = '■',
+      enable_named_colors = true,
+      enable_tailwind = false,
+    },
   },
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the

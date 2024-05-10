@@ -14,6 +14,7 @@ useronly=(
     alacritty
     bin
     coc
+    nvim
     ranger
     tmux
     vim

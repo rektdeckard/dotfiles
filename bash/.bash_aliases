@@ -14,3 +14,5 @@ alias gp="git pull"
 alias gu="git push"
 
 alias mgd="google-drive-ocamlfuse ~/GoogleDrive/"
+alias vi="nvim"
+alias nv="nvim"
